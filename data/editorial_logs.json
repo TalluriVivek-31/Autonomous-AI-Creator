@@ -1,0 +1,696 @@
+[
+  {
+    "id": "judge-1786282856000-c8169",
+    "timestamp": "2026-08-09T13:40:56.000Z",
+    "candidateTopic": {
+      "id": "topic-1786282855554-94m3x",
+      "title": "$340 Billion in VC, But Fewer Deals Than Any Year This Decade: the Latest from SVB’s 2026 State of the Markets",
+      "snippet": "Live development reported by saastr.com: $340 Billion in VC, But Fewer Deals Than Any Year This Decade: the Latest from SVB’s 2026 State of the Markets",
+      "source": "saastr.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSnZyWW9TTGcxSVpsSXJidzJTS2NVTEl2NHlWMHhpY2k3RE9jR09paGZHYzk1NGlnMFNzcXZmcVRzUFZ0aVl5Y3gtbmtCQ1NFNWNOeVk5RGp6UWtOYlpIVXYtZ3NlSE9lb0RaWHNxc1JnOXBxSlFFUm5QMDhlbTVSSzVPX2E0cFA5ZElQYURIM1FVeHhUVFVZVA?oc=5",
+      "publishedDate": "Sun, 08 Feb 2026 15:42:09 GMT",
+      "searchQuery": "AI startup revenue multiple trends",
+      "fetchedAt": "2026-08-09T13:40:55.554Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSnZyWW9TTGcxSVpsSXJidzJTS2NVTEl2NHlWMHhpY2k3RE9jR09paGZHYzk1NGlnMFNzcXZmcVRzUFZ0aVl5Y3gtbmtCQ1NFNWNOeVk5RGp6UWtOYlpIVXYtZ3NlSE9lb0RaWHNxc1JnOXBxSlFFUm5QMDhlbTVSSzVPX2E0cFA5ZElQYURIM1FVeHhUVFVZVA?oc=5",
+    "verdict": "REJECTED",
+    "score": 34,
+    "reasoning": "Memory collision: Content is 75% similar to existing RECENT_REJECTION (\"$340 Billion in VC, But Fewer Deals Than Any Year This Decade: the Latest from SVB’s 2026 State of the Markets\"). Duplicate rejected to avoid feed spam.",
+    "criteriaBreakdown": {
+      "alignmentScore": 25,
+      "noveltyScore": 25,
+      "substanceScore": 30,
+      "timelinessScore": 81,
+      "similarityPercentage": 75
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786282855997-6pscf",
+    "timestamp": "2026-08-09T13:40:55.997Z",
+    "candidateTopic": {
+      "id": "topic-1786282855984-qy6xd",
+      "title": "Microsoft Earnings Call: Cloud, AI Surge Amid Cost Pain",
+      "snippet": "Live development reported by The Globe and Mail: Microsoft Earnings Call: Cloud, AI Surge Amid Cost Pain",
+      "source": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa0ZibFZnZlJiUV9ib3FSUXlZYlMxRkNyZXJ2WXVpUE9xR3ZXU3BzbHhpZ3ZkVEVNNW4tY0c2aGJOU24xQUVucFlrc25PNjJHMVBieVp6MTJoZ1RQTF9KVkVBX1c1M3FhYjk3RjVYMUJ4cVRyTE1mVEJiallHbVczRFlaR2lfczEtTjB5T3h4cDZYSnZFUExSVUk2WmNaZFRMUThZX3ZaZ2RQcEpJUUV0cTJNNnNkSVNxY01iU01tSE9oNmJtM2JVaTBqNjhpQ3NScF9BQQ?oc=5",
+      "publishedDate": "Sun, 02 Aug 2026 00:34:00 GMT",
+      "searchQuery": "cloud computing margin compression AI",
+      "fetchedAt": "2026-08-09T13:40:55.984Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa0ZibFZnZlJiUV9ib3FSUXlZYlMxRkNyZXJ2WXVpUE9xR3ZXU3BzbHhpZ3ZkVEVNNW4tY0c2aGJOU24xQUVucFlrc25PNjJHMVBieVp6MTJoZ1RQTF9KVkVBX1c1M3FhYjk3RjVYMUJ4cVRyTE1mVEJiallHbVczRFlaR2lfczEtTjB5T3h4cDZYSnZFUExSVUk2WmNaZFRMUThZX3ZaZ2RQcEpJUUV0cTJNNnNkSVNxY01iU01tSE9oNmJtM2JVaTBqNjhpQ3NScF9BQQ?oc=5",
+    "verdict": "REJECTED",
+    "score": 45,
+    "reasoning": "Memory collision: Content is 62% similar to existing RECENT_REJECTION (\"Microsoft Earnings Call: Cloud, AI Surge Amid Cost Pain\"). Duplicate rejected to avoid feed spam.",
+    "criteriaBreakdown": {
+      "alignmentScore": 43,
+      "noveltyScore": 38,
+      "substanceScore": 30,
+      "timelinessScore": 83,
+      "similarityPercentage": 62
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786282855995-3eoh3",
+    "timestamp": "2026-08-09T13:40:55.995Z",
+    "candidateTopic": {
+      "id": "topic-1786282855554-c1ub5",
+      "title": "Inside General Intuition’s AI Startup Valuation Surge",
+      "snippet": "Live development reported by AI CERTs: Inside General Intuition’s AI Startup Valuation Surge",
+      "source": "AI CERTs",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNODFjYWR6RzRURFIyZDlQVFM0c1V6anNrbXU0dm83ZUNuVXBMRzNRNHVBMlZzMnMxXzFzalMtY0ktSnh1RUg2cE5qdmU5RVJ5MDF5Ym1NTWxGd1dxTG5FM1ltTVpqTzQ0VHl0ekV5OS11RUdkSFJZdnBBRHVJNVUxLVhJNUl4ZDNz?oc=5",
+      "publishedDate": "Sat, 20 Jun 2026 17:39:44 GMT",
+      "searchQuery": "AI startup revenue multiple trends",
+      "fetchedAt": "2026-08-09T13:40:55.554Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNODFjYWR6RzRURFIyZDlQVFM0c1V6anNrbXU0dm83ZUNuVXBMRzNRNHVBMlZzMnMxXzFzalMtY0ktSnh1RUg2cE5qdmU5RVJ5MDF5Ym1NTWxGd1dxTG5FM1ltTVpqTzQ0VHl0ekV5OS11RUdkSFJZdnBBRHVJNVUxLVhJNUl4ZDNz?oc=5",
+    "verdict": "REJECTED",
+    "score": 39,
+    "reasoning": "Memory collision: Content is 60% similar to existing RECENT_REJECTION (\"Inside General Intuition’s AI Startup Valuation Surge\"). Duplicate rejected to avoid feed spam.",
+    "criteriaBreakdown": {
+      "alignmentScore": 25,
+      "noveltyScore": 40,
+      "substanceScore": 30,
+      "timelinessScore": 82,
+      "similarityPercentage": 60
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786282855990-yjk92",
+    "timestamp": "2026-08-09T13:40:55.990Z",
+    "candidateTopic": {
+      "id": "topic-1786282855984-dd5j5",
+      "title": "DT Q1 Deep Dive: AI Adoption and Platform Expansion Drive Mixed Market Response",
+      "snippet": "Live development reported by StockStory: DT Q1 Deep Dive: AI Adoption and Platform Expansion Drive Mixed Market Response",
+      "source": "StockStory",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRnJhc0R3QWNvUnhHRlB6SVFIb0ZiT2k4UjJnX09mNmJRMU9EdklpZ0JEU3ZWNHpObEpkbDYtNFV0alhrRkgxb1hKNG02VHlzcjByQUFGMTF5cjkweXAxUzFFR1l4TGVYU1Vwd0lpcTJOME5ZQ1duTHpOWk16bHpHVnFiclRZY3ZMM2xJQ2Jlc0p5MmluSXZjS2F1T2JUOHpHdFJNSE5XbWp6eFRJcDMtWEpsQlBGUk90TDVBTnhFb3NhT2RNbHMzU05MRWtoMDZ1SExWdQ?oc=5",
+      "publishedDate": "Wed, 13 May 2026 07:00:00 GMT",
+      "searchQuery": "cloud computing margin compression AI",
+      "fetchedAt": "2026-08-09T13:40:55.984Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRnJhc0R3QWNvUnhHRlB6SVFIb0ZiT2k4UjJnX09mNmJRMU9EdklpZ0JEU3ZWNHpObEpkbDYtNFV0alhrRkgxb1hKNG02VHlzcjByQUFGMTF5cjkweXAxUzFFR1l4TGVYU1Vwd0lpcTJOME5ZQ1duTHpOWk16bHpHVnFiclRZY3ZMM2xJQ2Jlc0p5MmluSXZjS2F1T2JUOHpHdFJNSE5XbWp6eFRJcDMtWEpsQlBGUk90TDVBTnhFb3NhT2RNbHMzU05MRWtoMDZ1SExWdQ?oc=5",
+    "verdict": "REJECTED",
+    "score": 43,
+    "reasoning": "Memory collision: Content is 69% similar to existing RECENT_REJECTION (\"DT Q1 Deep Dive: AI Adoption and Platform Expansion Drive Mixed Market Response\"). Duplicate rejected to avoid feed spam.",
+    "criteriaBreakdown": {
+      "alignmentScore": 43,
+      "noveltyScore": 31,
+      "substanceScore": 30,
+      "timelinessScore": 85,
+      "similarityPercentage": 69
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786282855985-5d4q6",
+    "timestamp": "2026-08-09T13:40:55.985Z",
+    "candidateTopic": {
+      "id": "topic-1786282855554-93x45",
+      "title": "Artificial Intelligence in United States",
+      "snippet": "Live development reported by Tracxn: Artificial Intelligence in United States",
+      "source": "Tracxn",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVktxTlVpZU10a2M1OU12UFJKWXl0N2I0RVlNaFdNMDEwclc3blUtazdTbDVBOEZwR2FlcFpXbVd6ZVg5NnJ2eXloZnVsdC1IYW5rM0ZKWXVCejNKYnM4VUJ3UkpIZ1plN215SmE4NVNNVWpDRjhockNsVGhUcW5HRDRWNS1jMUtwSGpBZVFTRGVaeFNTaFoyT3YyZFVXSzM5UGlwNWthQnhpWnJrTVQ2UnRtSXZ6eElEVTZv?oc=5",
+      "publishedDate": "Tue, 28 Jul 2026 07:00:00 GMT",
+      "searchQuery": "AI startup revenue multiple trends",
+      "fetchedAt": "2026-08-09T13:40:55.554Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVktxTlVpZU10a2M1OU12UFJKWXl0N2I0RVlNaFdNMDEwclc3blUtazdTbDVBOEZwR2FlcFpXbVd6ZVg5NnJ2eXloZnVsdC1IYW5rM0ZKWXVCejNKYnM4VUJ3UkpIZ1plN215SmE4NVNNVWpDRjhockNsVGhUcW5HRDRWNS1jMUtwSGpBZVFTRGVaeFNTaFoyT3YyZFVXSzM5UGlwNWthQnhpWnJrTVQ2UnRtSXZ6eElEVTZv?oc=5",
+    "verdict": "REJECTED",
+    "score": 49,
+    "reasoning": "Memory collision: Content is 50% similar to existing RECENT_REJECTION (\"Artificial Intelligence in United States\"). Duplicate rejected to avoid feed spam.",
+    "criteriaBreakdown": {
+      "alignmentScore": 43,
+      "noveltyScore": 50,
+      "substanceScore": 30,
+      "timelinessScore": 87,
+      "similarityPercentage": 50
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786282254366-dcdyg",
+    "timestamp": "2026-08-09T13:30:54.366Z",
+    "candidateTopic": {
+      "id": "topic-1786282254353-xvnqs",
+      "title": "DT Q1 Deep Dive: AI Adoption and Platform Expansion Drive Mixed Market Response",
+      "snippet": "Live development reported by StockStory: DT Q1 Deep Dive: AI Adoption and Platform Expansion Drive Mixed Market Response",
+      "source": "StockStory",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRnJhc0R3QWNvUnhHRlB6SVFIb0ZiT2k4UjJnX09mNmJRMU9EdklpZ0JEU3ZWNHpObEpkbDYtNFV0alhrRkgxb1hKNG02VHlzcjByQUFGMTF5cjkweXAxUzFFR1l4TGVYU1Vwd0lpcTJOME5ZQ1duTHpOWk16bHpHVnFiclRZY3ZMM2xJQ2Jlc0p5MmluSXZjS2F1T2JUOHpHdFJNSE5XbWp6eFRJcDMtWEpsQlBGUk90TDVBTnhFb3NhT2RNbHMzU05MRWtoMDZ1SExWdQ?oc=5",
+      "publishedDate": "Wed, 13 May 2026 07:00:00 GMT",
+      "searchQuery": "cloud computing margin compression AI",
+      "fetchedAt": "2026-08-09T13:30:54.353Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRnJhc0R3QWNvUnhHRlB6SVFIb0ZiT2k4UjJnX09mNmJRMU9EdklpZ0JEU3ZWNHpObEpkbDYtNFV0alhrRkgxb1hKNG02VHlzcjByQUFGMTF5cjkweXAxUzFFR1l4TGVYU1Vwd0lpcTJOME5ZQ1duTHpOWk16bHpHVnFiclRZY3ZMM2xJQ2Jlc0p5MmluSXZjS2F1T2JUOHpHdFJNSE5XbWp6eFRJcDMtWEpsQlBGUk90TDVBTnhFb3NhT2RNbHMzU05MRWtoMDZ1SExWdQ?oc=5",
+    "verdict": "REJECTED",
+    "score": 63,
+    "reasoning": "Score (63/100) failed quality bar (70/100). Reasons: insufficient persona alignment (43/100), low technical depth/signal (30/100).",
+    "criteriaBreakdown": {
+      "alignmentScore": 43,
+      "noveltyScore": 95,
+      "substanceScore": 30,
+      "timelinessScore": 91,
+      "similarityPercentage": 5
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786282254363-re4ku",
+    "timestamp": "2026-08-09T13:30:54.363Z",
+    "candidateTopic": {
+      "id": "topic-1786282254353-8h5yv",
+      "title": "Top Wall Street Analyst Says AI Spending Is Delivering Real Returns: “When We Build a Data Center, It’s Already Pre-Sold”",
+      "snippet": "Live development reported by 24/7 Wall St.: Top Wall Street Analyst Says AI Spending Is Delivering Real Returns: “When We Build a Data Center, It’s Already Pre-Sold”",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNS1NRFRTVURkcjZOLVlaVDh1TXJCWUY0SHhwdWtnYUVob2FWU1lCTDlPVmhZWHBOSVlPX0NoX3k2cjA1S0tzWTRFcEluZjgxa1JGMGhpTS1DYUo5UVVCRXNkTEZqYU1XZ2NRQTZ2V2o4NmpQaHA4ZFNySTI5Qkl4Zi1kTk5YVEJ4NmJoNGk1QXRTWmlIVDhLM0NwcllOd3k2amNuN1o1bDZBb2RJWjZhTjNuSzQ1bmpDczd6NTQ5WWNINzd5bEdEc3RTUEFxbExUN25uLXNTLVhZX2tVQUVWakhvNVJiMG1sN01wQWotNm1qZw?oc=5",
+      "publishedDate": "Fri, 10 Jul 2026 07:00:00 GMT",
+      "searchQuery": "cloud computing margin compression AI",
+      "fetchedAt": "2026-08-09T13:30:54.353Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNS1NRFRTVURkcjZOLVlaVDh1TXJCWUY0SHhwdWtnYUVob2FWU1lCTDlPVmhZWHBOSVlPX0NoX3k2cjA1S0tzWTRFcEluZjgxa1JGMGhpTS1DYUo5UVVCRXNkTEZqYU1XZ2NRQTZ2V2o4NmpQaHA4ZFNySTI5Qkl4Zi1kTk5YVEJ4NmJoNGk1QXRTWmlIVDhLM0NwcllOd3k2amNuN1o1bDZBb2RJWjZhTjNuSzQ1bmpDczd6NTQ5WWNINzd5bEdEc3RTUEFxbExUN25uLXNTLVhZX2tVQUVWakhvNVJiMG1sN01wQWotNm1qZw?oc=5",
+    "verdict": "ACCEPTED",
+    "score": 82,
+    "reasoning": "High-signal topic passing editorial bar (82/70). Strong domain relevance (99%) and fresh novelty (97%). Selected for LLM Writer synthesis.",
+    "criteriaBreakdown": {
+      "alignmentScore": 99,
+      "noveltyScore": 97,
+      "substanceScore": 30,
+      "timelinessScore": 82,
+      "similarityPercentage": 3
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786282254361-46sqk",
+    "timestamp": "2026-08-09T13:30:54.361Z",
+    "candidateTopic": {
+      "id": "topic-1786282253764-ne0tn",
+      "title": "$340 Billion in VC, But Fewer Deals Than Any Year This Decade: the Latest from SVB’s 2026 State of the Markets",
+      "snippet": "Live development reported by saastr.com: $340 Billion in VC, But Fewer Deals Than Any Year This Decade: the Latest from SVB’s 2026 State of the Markets",
+      "source": "saastr.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSnZyWW9TTGcxSVpsSXJidzJTS2NVTEl2NHlWMHhpY2k3RE9jR09paGZHYzk1NGlnMFNzcXZmcVRzUFZ0aVl5Y3gtbmtCQ1NFNWNOeVk5RGp6UWtOYlpIVXYtZ3NlSE9lb0RaWHNxc1JnOXBxSlFFUm5QMDhlbTVSSzVPX2E0cFA5ZElQYURIM1FVeHhUVFVZVA?oc=5",
+      "publishedDate": "Sun, 08 Feb 2026 15:42:09 GMT",
+      "searchQuery": "AI startup revenue multiple trends",
+      "fetchedAt": "2026-08-09T13:30:53.764Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSnZyWW9TTGcxSVpsSXJidzJTS2NVTEl2NHlWMHhpY2k3RE9jR09paGZHYzk1NGlnMFNzcXZmcVRzUFZ0aVl5Y3gtbmtCQ1NFNWNOeVk5RGp6UWtOYlpIVXYtZ3NlSE9lb0RaWHNxc1JnOXBxSlFFUm5QMDhlbTVSSzVPX2E0cFA5ZElQYURIM1FVeHhUVFVZVA?oc=5",
+    "verdict": "REJECTED",
+    "score": 56,
+    "reasoning": "Score (56/100) failed quality bar (70/100). Reasons: insufficient persona alignment (25/100), low technical depth/signal (30/100).",
+    "criteriaBreakdown": {
+      "alignmentScore": 25,
+      "noveltyScore": 95,
+      "substanceScore": 30,
+      "timelinessScore": 84,
+      "similarityPercentage": 5
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786282254358-zou5e",
+    "timestamp": "2026-08-09T13:30:54.358Z",
+    "candidateTopic": {
+      "id": "topic-1786282253764-3ltws",
+      "title": "Here are the 55 US AI startups that raised $100M or more in 2025",
+      "snippet": "Live development reported by TechCrunch: Here are the 55 US AI startups that raised $100M or more in 2025",
+      "source": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUGtUd1NWOXBDa0N3bzMwYXZWal9SLVRfUG1fcUtuaGFHR2lMZlVaSThWX2ZKYkRCc0ltaWQ1aUZjR1dmMmZxRGlQQ0dBdDlfUTN5Sm1KRWZ5X08tSHBPVEMwM0JiVFhJTGF5a3JfSEFGUzJ3MEZhTnRJcHNlLWN1eC1hV1FSaDNwOHJEXzJlLXVUN2MzUkFWbWxzLXBoWFBnaW1EcldR?oc=5",
+      "publishedDate": "Mon, 19 Jan 2026 08:00:00 GMT",
+      "searchQuery": "AI startup revenue multiple trends",
+      "fetchedAt": "2026-08-09T13:30:53.764Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUGtUd1NWOXBDa0N3bzMwYXZWal9SLVRfUG1fcUtuaGFHR2lMZlVaSThWX2ZKYkRCc0ltaWQ1aUZjR1dmMmZxRGlQQ0dBdDlfUTN5Sm1KRWZ5X08tSHBPVEMwM0JiVFhJTGF5a3JfSEFGUzJ3MEZhTnRJcHNlLWN1eC1hV1FSaDNwOHJEXzJlLXVUN2MzUkFWbWxzLXBoWFBnaW1EcldR?oc=5",
+    "verdict": "REJECTED",
+    "score": 39,
+    "reasoning": "Memory collision: Content is 60% similar to existing RECENT_REJECTION (\"Here are the 55 US AI startups that raised $100M or more in 2025\"). Duplicate rejected to avoid feed spam.",
+    "criteriaBreakdown": {
+      "alignmentScore": 25,
+      "noveltyScore": 40,
+      "substanceScore": 30,
+      "timelinessScore": 80,
+      "similarityPercentage": 60
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786282254354-edqf7",
+    "timestamp": "2026-08-09T13:30:54.354Z",
+    "candidateTopic": {
+      "id": "topic-1786282254353-sle1l",
+      "title": "Microsoft Earnings Call: Cloud, AI Surge Amid Cost Pain",
+      "snippet": "Live development reported by The Globe and Mail: Microsoft Earnings Call: Cloud, AI Surge Amid Cost Pain",
+      "source": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa0ZibFZnZlJiUV9ib3FSUXlZYlMxRkNyZXJ2WXVpUE9xR3ZXU3BzbHhpZ3ZkVEVNNW4tY0c2aGJOU24xQUVucFlrc25PNjJHMVBieVp6MTJoZ1RQTF9KVkVBX1c1M3FhYjk3RjVYMUJ4cVRyTE1mVEJiallHbVczRFlaR2lfczEtTjB5T3h4cDZYSnZFUExSVUk2WmNaZFRMUThZX3ZaZ2RQcEpJUUV0cTJNNnNkSVNxY01iU01tSE9oNmJtM2JVaTBqNjhpQ3NScF9BQQ?oc=5",
+      "publishedDate": "Sun, 02 Aug 2026 00:34:00 GMT",
+      "searchQuery": "cloud computing margin compression AI",
+      "fetchedAt": "2026-08-09T13:30:54.353Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa0ZibFZnZlJiUV9ib3FSUXlZYlMxRkNyZXJ2WXVpUE9xR3ZXU3BzbHhpZ3ZkVEVNNW4tY0c2aGJOU24xQUVucFlrc25PNjJHMVBieVp6MTJoZ1RQTF9KVkVBX1c1M3FhYjk3RjVYMUJ4cVRyTE1mVEJiallHbVczRFlaR2lfczEtTjB5T3h4cDZYSnZFUExSVUk2WmNaZFRMUThZX3ZaZ2RQcEpJUUV0cTJNNnNkSVNxY01iU01tSE9oNmJtM2JVaTBqNjhpQ3NScF9BQQ?oc=5",
+    "verdict": "REJECTED",
+    "score": 62,
+    "reasoning": "Score (62/100) failed quality bar (70/100). Reasons: insufficient persona alignment (43/100), low technical depth/signal (30/100).",
+    "criteriaBreakdown": {
+      "alignmentScore": 43,
+      "noveltyScore": 94,
+      "substanceScore": 30,
+      "timelinessScore": 87,
+      "similarityPercentage": 6
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786281694304-3wclw",
+    "timestamp": "2026-08-09T13:21:34.304Z",
+    "candidateTopic": {
+      "id": "signal-1786281694276-71mfq",
+      "title": "Reinforcement Learning via Verifiable Rewards Unlocks Math & Formal Verification Super-Reasoning",
+      "snippet": "Test-time compute scaling is replacing pure pre-training as the dominant paradigm for frontier problem-solving in logic, formal proofs, and autonomous synthesis.",
+      "source": "AI Research Quarterly",
+      "url": "https://nature.com/articles/verifiable-rl-reasoning",
+      "searchQuery": "Research",
+      "fetchedAt": "2026-08-09T13:21:34.276Z"
+    },
+    "sourceUrl": "https://nature.com/articles/verifiable-rl-reasoning",
+    "verdict": "ACCEPTED",
+    "score": 72,
+    "reasoning": "High-signal topic passing editorial bar (72/70). Strong domain relevance (43%) and fresh novelty (92%). Selected for LLM Writer synthesis.",
+    "criteriaBreakdown": {
+      "alignmentScore": 43,
+      "noveltyScore": 92,
+      "substanceScore": 86,
+      "timelinessScore": 81,
+      "similarityPercentage": 8
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786281694298-pjgeg",
+    "timestamp": "2026-08-09T13:21:34.298Z",
+    "candidateTopic": {
+      "id": "topic-1786281694276-83uyk",
+      "title": "Rolls-Royce secures government backing for small nuclear reactors",
+      "snippet": "Live development reported by Computing UK: Rolls-Royce secures government backing for small nuclear reactors",
+      "source": "Computing UK",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPenktTTRwT1UtUk9SNDhaOUhRTjR0SkwwYkZ4SUhSeElDNGtLZ01JNE5STm5TV1ZHUlV1WDlZWlliVExCRVNLcHlYZHFka1EtdHZYeVVBckd1bEhVZ1dkTGI1VTBkbDVDdjlXOHdJcDhpalFReGRhdkk1QjVqRUt3Um50NThkcnpGbTFhN29WV1UzaHhlNWxOUzRBMTdpQ0ZMTEhIczBLWFNjLVh4R0VfSWZ5Yjk?oc=5",
+      "publishedDate": "Wed, 15 Apr 2026 07:00:00 GMT",
+      "searchQuery": "SMR nuclear compute deal",
+      "fetchedAt": "2026-08-09T13:21:34.276Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPenktTTRwT1UtUk9SNDhaOUhRTjR0SkwwYkZ4SUhSeElDNGtLZ01JNE5STm5TV1ZHUlV1WDlZWlliVExCRVNLcHlYZHFka1EtdHZYeVVBckd1bEhVZ1dkTGI1VTBkbDVDdjlXOHdJcDhpalFReGRhdkk1QjVqRUt3Um50NThkcnpGbTFhN29WV1UzaHhlNWxOUzRBMTdpQ0ZMTEhIczBLWFNjLVh4R0VfSWZ5Yjk?oc=5",
+    "verdict": "ACCEPTED",
+    "score": 72,
+    "reasoning": "High-signal topic passing editorial bar (72/70). Strong domain relevance (71%) and fresh novelty (96%). Selected for LLM Writer synthesis.",
+    "criteriaBreakdown": {
+      "alignmentScore": 71,
+      "noveltyScore": 96,
+      "substanceScore": 30,
+      "timelinessScore": 83,
+      "similarityPercentage": 4
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786281694292-qg2w1",
+    "timestamp": "2026-08-09T13:21:34.292Z",
+    "candidateTopic": {
+      "id": "topic-1786281693796-qhtmz",
+      "title": "Artificial Intelligence in United States",
+      "snippet": "Live development reported by Tracxn: Artificial Intelligence in United States",
+      "source": "Tracxn",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVktxTlVpZU10a2M1OU12UFJKWXl0N2I0RVlNaFdNMDEwclc3blUtazdTbDVBOEZwR2FlcFpXbVd6ZVg5NnJ2eXloZnVsdC1IYW5rM0ZKWXVCejNKYnM4VUJ3UkpIZ1plN215SmE4NVNNVWpDRjhockNsVGhUcW5HRDRWNS1jMUtwSGpBZVFTRGVaeFNTaFoyT3YyZFVXSzM5UGlwNWthQnhpWnJrTVQ2UnRtSXZ6eElEVTZv?oc=5",
+      "publishedDate": "Tue, 28 Jul 2026 07:00:00 GMT",
+      "searchQuery": "AI startup revenue multiple trends",
+      "fetchedAt": "2026-08-09T13:21:33.796Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVktxTlVpZU10a2M1OU12UFJKWXl0N2I0RVlNaFdNMDEwclc3blUtazdTbDVBOEZwR2FlcFpXbVd6ZVg5NnJ2eXloZnVsdC1IYW5rM0ZKWXVCejNKYnM4VUJ3UkpIZ1plN215SmE4NVNNVWpDRjhockNsVGhUcW5HRDRWNS1jMUtwSGpBZVFTRGVaeFNTaFoyT3YyZFVXSzM5UGlwNWthQnhpWnJrTVQ2UnRtSXZ6eElEVTZv?oc=5",
+    "verdict": "REJECTED",
+    "score": 63,
+    "reasoning": "Score (63/100) failed quality bar (70/100). Reasons: insufficient persona alignment (43/100), low technical depth/signal (30/100).",
+    "criteriaBreakdown": {
+      "alignmentScore": 43,
+      "noveltyScore": 97,
+      "substanceScore": 30,
+      "timelinessScore": 88,
+      "similarityPercentage": 3
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786281694286-j8e70",
+    "timestamp": "2026-08-09T13:21:34.286Z",
+    "candidateTopic": {
+      "id": "topic-1786281693796-jfhuj",
+      "title": "Here are the 55 US AI startups that raised $100M or more in 2025",
+      "snippet": "Live development reported by TechCrunch: Here are the 55 US AI startups that raised $100M or more in 2025",
+      "source": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUGtUd1NWOXBDa0N3bzMwYXZWal9SLVRfUG1fcUtuaGFHR2lMZlVaSThWX2ZKYkRCc0ltaWQ1aUZjR1dmMmZxRGlQQ0dBdDlfUTN5Sm1KRWZ5X08tSHBPVEMwM0JiVFhJTGF5a3JfSEFGUzJ3MEZhTnRJcHNlLWN1eC1hV1FSaDNwOHJEXzJlLXVUN2MzUkFWbWxzLXBoWFBnaW1EcldR?oc=5",
+      "publishedDate": "Mon, 19 Jan 2026 08:00:00 GMT",
+      "searchQuery": "AI startup revenue multiple trends",
+      "fetchedAt": "2026-08-09T13:21:33.796Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUGtUd1NWOXBDa0N3bzMwYXZWal9SLVRfUG1fcUtuaGFHR2lMZlVaSThWX2ZKYkRCc0ltaWQ1aUZjR1dmMmZxRGlQQ0dBdDlfUTN5Sm1KRWZ5X08tSHBPVEMwM0JiVFhJTGF5a3JfSEFGUzJ3MEZhTnRJcHNlLWN1eC1hV1FSaDNwOHJEXzJlLXVUN2MzUkFWbWxzLXBoWFBnaW1EcldR?oc=5",
+    "verdict": "REJECTED",
+    "score": 56,
+    "reasoning": "Score (56/100) failed quality bar (70/100). Reasons: insufficient persona alignment (25/100), low technical depth/signal (30/100).",
+    "criteriaBreakdown": {
+      "alignmentScore": 25,
+      "noveltyScore": 95,
+      "substanceScore": 30,
+      "timelinessScore": 84,
+      "similarityPercentage": 5
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786281694278-9xpz6",
+    "timestamp": "2026-08-09T13:21:34.278Z",
+    "candidateTopic": {
+      "id": "topic-1786281693796-yx99s",
+      "title": "Inside General Intuition’s AI Startup Valuation Surge",
+      "snippet": "Live development reported by AI CERTs: Inside General Intuition’s AI Startup Valuation Surge",
+      "source": "AI CERTs",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNODFjYWR6RzRURFIyZDlQVFM0c1V6anNrbXU0dm83ZUNuVXBMRzNRNHVBMlZzMnMxXzFzalMtY0ktSnh1RUg2cE5qdmU5RVJ5MDF5Ym1NTWxGd1dxTG5FM1ltTVpqTzQ0VHl0ekV5OS11RUdkSFJZdnBBRHVJNVUxLVhJNUl4ZDNz?oc=5",
+      "publishedDate": "Sat, 20 Jun 2026 17:39:44 GMT",
+      "searchQuery": "AI startup revenue multiple trends",
+      "fetchedAt": "2026-08-09T13:21:33.796Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNODFjYWR6RzRURFIyZDlQVFM0c1V6anNrbXU0dm83ZUNuVXBMRzNRNHVBMlZzMnMxXzFzalMtY0ktSnh1RUg2cE5qdmU5RVJ5MDF5Ym1NTWxGd1dxTG5FM1ltTVpqTzQ0VHl0ekV5OS11RUdkSFJZdnBBRHVJNVUxLVhJNUl4ZDNz?oc=5",
+    "verdict": "REJECTED",
+    "score": 56,
+    "reasoning": "Score (56/100) failed quality bar (70/100). Reasons: insufficient persona alignment (25/100), low technical depth/signal (30/100).",
+    "criteriaBreakdown": {
+      "alignmentScore": 25,
+      "noveltyScore": 97,
+      "substanceScore": 30,
+      "timelinessScore": 80,
+      "similarityPercentage": 3
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786281655028-quho6",
+    "timestamp": "2026-08-09T13:20:55.028Z",
+    "candidateTopic": {
+      "id": "topic-1786281654375-wsnj0",
+      "title": "Meta Announces Nuclear Energy Projects, Unlocking Up to 6.6 GW to Power American Leadership in AI Innovation",
+      "snippet": "Live development reported by Meta Store: Meta Announces Nuclear Energy Projects, Unlocking Up to 6.6 GW to Power American Leadership in AI Innovation",
+      "source": "Meta Store",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT2pPa1RyS01SdjVXYmtibWp3MURDbHJuRjhMb3BuUkI4dXZueW5uMzhIUkFKamsxYW55VDZ5Z0RlU1R4M3ZnODRIMXl2SW5xOURoRTFyNlhYbkVlNXVTd3N6N0N5aHB4OXdrc3JKR3hTUG1jNnE4ZnRpdzM5bzRGdDh0S0JzVWZCSG1DN21fSlFqYzdObjJJ0gGcAUFVX3lxTE5MMy05clZwUVAtY2NTbzVWRVRnR0F5emgtRXlwS0NidU9FdUFxdUtUQ3VmZkZic29DbmVtS09BZkdZU0ROekUxc1ctWDVoYkk2aFhSdnB5dVcyd0FPT1dyeUlURklqV0g0VXhwYmNZZldsYlhXTUNUQ01Pc2l3SjA0MXl2TENJVHhVVy1OVXJFRGpZeS05dmd0WFBiUg?oc=5",
+      "publishedDate": "Fri, 09 Jan 2026 08:00:00 GMT",
+      "searchQuery": "SMR nuclear compute deal",
+      "fetchedAt": "2026-08-09T13:20:54.376Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT2pPa1RyS01SdjVXYmtibWp3MURDbHJuRjhMb3BuUkI4dXZueW5uMzhIUkFKamsxYW55VDZ5Z0RlU1R4M3ZnODRIMXl2SW5xOURoRTFyNlhYbkVlNXVTd3N6N0N5aHB4OXdrc3JKR3hTUG1jNnE4ZnRpdzM5bzRGdDh0S0JzVWZCSG1DN21fSlFqYzdObjJJ0gGcAUFVX3lxTE5MMy05clZwUVAtY2NTbzVWRVRnR0F5emgtRXlwS0NidU9FdUFxdUtUQ3VmZkZic29DbmVtS09BZkdZU0ROekUxc1ctWDVoYkk2aFhSdnB5dVcyd0FPT1dyeUlURklqV0g0VXhwYmNZZldsYlhXTUNUQ01Pc2l3SjA0MXl2TENJVHhVVy1OVXJFRGpZeS05dmd0WFBiUg?oc=5",
+    "verdict": "ACCEPTED",
+    "score": 85,
+    "reasoning": "High-signal topic passing editorial bar (85/70). Strong domain relevance (100%) and fresh novelty (100%). Selected for LLM Writer synthesis.",
+    "criteriaBreakdown": {
+      "alignmentScore": 100,
+      "noveltyScore": 100,
+      "substanceScore": 30,
+      "timelinessScore": 93,
+      "similarityPercentage": 0
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786281655026-h47xv",
+    "timestamp": "2026-08-09T13:20:55.026Z",
+    "candidateTopic": {
+      "id": "topic-1786281654992-cji08",
+      "title": "Semiconductor Lithography Equipment Market to Reach USD 48.5 Billion by 2034",
+      "snippet": "Live development reported by electronicsmedia.info: Semiconductor Lithography Equipment Market to Reach USD 48.5 Billion by 2034",
+      "source": "electronicsmedia.info",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTWVGR3IxNzVVWXQyRmVSVkJaOXhHaExhRV9LNXNHSEFzdExkblNyVkFBWkd0cDBPekxnS2FxQWhHS0VKRDFkNU5zT3VKYlp1RE82MHlsMzBiRTBtR24tX1B4VVY4WHhOM0F0djFtRzVUV2g5RFBNcDBZckpMbHU0Yl9yaEp6RVF5?oc=5",
+      "publishedDate": "Thu, 06 Aug 2026 10:00:51 GMT",
+      "searchQuery": "semiconductor lithography market forecast",
+      "fetchedAt": "2026-08-09T13:20:54.992Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTWVGR3IxNzVVWXQyRmVSVkJaOXhHaExhRV9LNXNHSEFzdExkblNyVkFBWkd0cDBPekxnS2FxQWhHS0VKRDFkNU5zT3VKYlp1RE82MHlsMzBiRTBtR24tX1B4VVY4WHhOM0F0djFtRzVUV2g5RFBNcDBZckpMbHU0Yl9yaEp6RVF5?oc=5",
+    "verdict": "REJECTED",
+    "score": 65,
+    "reasoning": "Score (65/100) failed quality bar (70/100). Reasons: insufficient persona alignment (43/100), low technical depth/signal (30/100).",
+    "criteriaBreakdown": {
+      "alignmentScore": 43,
+      "noveltyScore": 100,
+      "substanceScore": 30,
+      "timelinessScore": 91,
+      "similarityPercentage": 0
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786281655023-4h4wj",
+    "timestamp": "2026-08-09T13:20:55.023Z",
+    "candidateTopic": {
+      "id": "topic-1786281654376-9rcl2",
+      "title": "Rolls-Royce secures government backing for small nuclear reactors",
+      "snippet": "Live development reported by Computing UK: Rolls-Royce secures government backing for small nuclear reactors",
+      "source": "Computing UK",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPenktTTRwT1UtUk9SNDhaOUhRTjR0SkwwYkZ4SUhSeElDNGtLZ01JNE5STm5TV1ZHUlV1WDlZWlliVExCRVNLcHlYZHFka1EtdHZYeVVBckd1bEhVZ1dkTGI1VTBkbDVDdjlXOHdJcDhpalFReGRhdkk1QjVqRUt3Um50NThkcnpGbTFhN29WV1UzaHhlNWxOUzRBMTdpQ0ZMTEhIczBLWFNjLVh4R0VfSWZ5Yjk?oc=5",
+      "publishedDate": "Wed, 15 Apr 2026 07:00:00 GMT",
+      "searchQuery": "SMR nuclear compute deal",
+      "fetchedAt": "2026-08-09T13:20:54.376Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPenktTTRwT1UtUk9SNDhaOUhRTjR0SkwwYkZ4SUhSeElDNGtLZ01JNE5STm5TV1ZHUlV1WDlZWlliVExCRVNLcHlYZHFka1EtdHZYeVVBckd1bEhVZ1dkTGI1VTBkbDVDdjlXOHdJcDhpalFReGRhdkk1QjVqRUt3Um50NThkcnpGbTFhN29WV1UzaHhlNWxOUzRBMTdpQ0ZMTEhIczBLWFNjLVh4R0VfSWZ5Yjk?oc=5",
+    "verdict": "ACCEPTED",
+    "score": 73,
+    "reasoning": "High-signal topic passing editorial bar (73/70). Strong domain relevance (71%) and fresh novelty (100%). Selected for LLM Writer synthesis.",
+    "criteriaBreakdown": {
+      "alignmentScore": 71,
+      "noveltyScore": 100,
+      "substanceScore": 30,
+      "timelinessScore": 82,
+      "similarityPercentage": 0
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786281655021-6jgl9",
+    "timestamp": "2026-08-09T13:20:55.021Z",
+    "candidateTopic": {
+      "id": "topic-1786281654376-vi2ys",
+      "title": "Supply chain deal brings Rolls-Royce SMR a step closer to roll-out",
+      "snippet": "Live development reported by eandt.theiet.org: Supply chain deal brings Rolls-Royce SMR a step closer to roll-out",
+      "source": "eandt.theiet.org",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObXV3NlNPaFowMGFwNHNkeHNBem52WUI3ZEJ2MmM3TktjVWlaQ1BiNU1RbW1TRkQ2blU2ZS1ES1JmS3BiSWt6ZmxoZ0FJN2doNEpwTlR3VkJrQUpnNGM5U1FiY1pnMjNRTWdtZTJWMWVXdUNJTk52bVo5MHVNUm9MaWZqUWlZUng3clMzN0JhdkpiNUlKaFM0NWZ0b1FhRllEcVE?oc=5",
+      "publishedDate": "Tue, 31 Mar 2026 07:00:00 GMT",
+      "searchQuery": "SMR nuclear compute deal",
+      "fetchedAt": "2026-08-09T13:20:54.376Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObXV3NlNPaFowMGFwNHNkeHNBem52WUI3ZEJ2MmM3TktjVWlaQ1BiNU1RbW1TRkQ2blU2ZS1ES1JmS3BiSWt6ZmxoZ0FJN2doNEpwTlR3VkJrQUpnNGM5U1FiY1pnMjNRTWdtZTJWMWVXdUNJTk52bVo5MHVNUm9MaWZqUWlZUng3clMzN0JhdkpiNUlKaFM0NWZ0b1FhRllEcVE?oc=5",
+    "verdict": "ACCEPTED",
+    "score": 73,
+    "reasoning": "High-signal topic passing editorial bar (73/70). Strong domain relevance (71%) and fresh novelty (100%). Selected for LLM Writer synthesis.",
+    "criteriaBreakdown": {
+      "alignmentScore": 71,
+      "noveltyScore": 100,
+      "substanceScore": 30,
+      "timelinessScore": 82,
+      "similarityPercentage": 0
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786281655014-td1mt",
+    "timestamp": "2026-08-09T13:20:55.014Z",
+    "candidateTopic": {
+      "id": "topic-1786281654376-5i8zi",
+      "title": "U.S.–UK Nuclear Partnership Spurs Historic Wave of Fuel, SMR, and EPC Deals—Here’s the Rundown",
+      "snippet": "Live development reported by POWER Magazine: U.S.–UK Nuclear Partnership Spurs Historic Wave of Fuel, SMR, and EPC Deals—Here’s the Rundown",
+      "source": "POWER Magazine",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeFFtc2lTMHFIWnpBemoydE00ZkZ4d1QwRnF2akl5d3ZDQ1NadTJVYVVXc1ZKeDFrd3JxczhLYWplNkc0bHpXVHE0eGJTeEtpSlNkRmxyVmxFVG15VmtubUw3OUVaWnFGaUZEMHBwOVJiNFprekR2ajNUM09mRnNMWFFCM3BMcE1zRzBPVXZWaWZNVmcyTGZla0hHbWYtQTNwMElQMUdZc3lEWVFWcEJuMTlVcGtiMHM?oc=5",
+      "publishedDate": "Wed, 24 Sep 2025 07:00:00 GMT",
+      "searchQuery": "SMR nuclear compute deal",
+      "fetchedAt": "2026-08-09T13:20:54.376Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeFFtc2lTMHFIWnpBemoydE00ZkZ4d1QwRnF2akl5d3ZDQ1NadTJVYVVXc1ZKeDFrd3JxczhLYWplNkc0bHpXVHE0eGJTeEtpSlNkRmxyVmxFVG15VmtubUw3OUVaWnFGaUZEMHBwOVJiNFprekR2ajNUM09mRnNMWFFCM3BMcE1zRzBPVXZWaWZNVmcyTGZla0hHbWYtQTNwMElQMUdZc3lEWVFWcEJuMTlVcGtiMHM?oc=5",
+    "verdict": "ACCEPTED",
+    "score": 83,
+    "reasoning": "High-signal topic passing editorial bar (83/70). Strong domain relevance (99%) and fresh novelty (99%). Selected for LLM Writer synthesis.",
+    "criteriaBreakdown": {
+      "alignmentScore": 99,
+      "noveltyScore": 99,
+      "substanceScore": 30,
+      "timelinessScore": 81,
+      "similarityPercentage": 1
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786281561952-vc6uf",
+    "timestamp": "2026-08-09T13:19:21.952Z",
+    "candidateTopic": {
+      "id": "topic-1786281561927-z0744",
+      "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
+      "snippet": "Live development reported by NVIDIA Blog: Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
+      "source": "NVIDIA Blog",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qRy04XzlrLXJpMXlobEpKc3FzdXlXMzdaYVh5amRUbXJWSVltcURwWmlIWDhLMkhXMjUxUTNZOWpLYV9nRnlSRG9DTkQxQ1hYdlNmRWJ6ZlBNU1N5M0RZR21TNnF2OTI3bHd2cA?oc=5",
+      "publishedDate": "Thu, 06 Aug 2026 13:03:51 GMT",
+      "searchQuery": "open source foundation models weights",
+      "fetchedAt": "2026-08-09T13:19:21.927Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qRy04XzlrLXJpMXlobEpKc3FzdXlXMzdaYVh5amRUbXJWSVltcURwWmlIWDhLMkhXMjUxUTNZOWpLYV9nRnlSRG9DTkQxQ1hYdlNmRWJ6ZlBNU1N5M0RZR21TNnF2OTI3bHd2cA?oc=5",
+    "verdict": "ACCEPTED",
+    "score": 90,
+    "reasoning": "High-signal topic passing editorial bar (90/75). Strong domain relevance (99%) and fresh novelty (100%). Selected for LLM Writer synthesis.",
+    "criteriaBreakdown": {
+      "alignmentScore": 99,
+      "noveltyScore": 100,
+      "substanceScore": 64,
+      "timelinessScore": 84,
+      "similarityPercentage": 0
+    },
+    "personaId": "persona-ai-architect"
+  },
+  {
+    "id": "judge-1786281561947-3jcr4",
+    "timestamp": "2026-08-09T13:19:21.947Z",
+    "candidateTopic": {
+      "id": "topic-1786281561343-k8wk1",
+      "title": "Quantifying the reasoning abilities of LLMs on clinical cases",
+      "snippet": "Live development reported by Nature: Quantifying the reasoning abilities of LLMs on clinical cases",
+      "source": "Nature",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ORkpTOWpaSHMtX0RSUjFteU1sMEJzdFZFYjlUZ2YyRlRoRzNkdmkyOVZKbWVNR3FvbkJtS1prX0toTHVfN2tTWGU4YmhQXy1naFBoZEZBdG5LZmFfZ2Y0?oc=5",
+      "publishedDate": "Thu, 06 Nov 2025 08:00:00 GMT",
+      "searchQuery": "reasoning LLM benchmark release",
+      "fetchedAt": "2026-08-09T13:19:21.343Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ORkpTOWpaSHMtX0RSUjFteU1sMEJzdFZFYjlUZ2YyRlRoRzNkdmkyOVZKbWVNR3FvbkJtS1prX0toTHVfN2tTWGU4YmhQXy1naFBoZEZBdG5LZmFfZ2Y0?oc=5",
+    "verdict": "REJECTED",
+    "score": 66,
+    "reasoning": "Score (66/100) failed quality bar (75/100). Reasons: insufficient persona alignment (43/100), low technical depth/signal (42/100).",
+    "criteriaBreakdown": {
+      "alignmentScore": 43,
+      "noveltyScore": 100,
+      "substanceScore": 42,
+      "timelinessScore": 82,
+      "similarityPercentage": 0
+    },
+    "personaId": "persona-ai-architect"
+  },
+  {
+    "id": "judge-1786281561942-zxfwl",
+    "timestamp": "2026-08-09T13:19:21.942Z",
+    "candidateTopic": {
+      "id": "topic-1786281561343-r4bmv",
+      "title": "Introducing Claude Opus 4.7",
+      "snippet": "Live development reported by Anthropic: Introducing Claude Opus 4.7",
+      "source": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rS2xYRnJxOV9fQjgxWkl0OHlJRFhxMktsVmtTdGV6dnhPTXQzSXcwRE5hQXhOUGdVMXNwVVBZb01wYTVlY0tCT3VKZTBVQzZtVXRGY25XME5rUQ?oc=5",
+      "publishedDate": "Thu, 16 Apr 2026 07:00:00 GMT",
+      "searchQuery": "reasoning LLM benchmark release",
+      "fetchedAt": "2026-08-09T13:19:21.343Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rS2xYRnJxOV9fQjgxWkl0OHlJRFhxMktsVmtTdGV6dnhPTXQzSXcwRE5hQXhOUGdVMXNwVVBZb01wYTVlY0tCT3VKZTBVQzZtVXRGY25XME5rUQ?oc=5",
+    "verdict": "REJECTED",
+    "score": 66,
+    "reasoning": "Score (66/100) failed quality bar (75/100). Reasons: insufficient persona alignment (43/100), low technical depth/signal (42/100).",
+    "criteriaBreakdown": {
+      "alignmentScore": 43,
+      "noveltyScore": 100,
+      "substanceScore": 42,
+      "timelinessScore": 84,
+      "similarityPercentage": 0
+    },
+    "personaId": "persona-ai-architect"
+  },
+  {
+    "id": "judge-1786281561933-1gjvc",
+    "timestamp": "2026-08-09T13:19:21.933Z",
+    "candidateTopic": {
+      "id": "signal-1786281561928-i123z",
+      "title": "DeepSeek and Anthropic Release Next-Gen Reasoning Benchmarks for Multi-Step Autonomous Agents",
+      "snippet": "New empirical evaluations show chain-of-thought verification models achieve 40% lower hallucination rates when executing multi-turn tool calling and code generation.",
+      "source": "Frontier AI Benchmark Hub",
+      "url": "https://arxiv.org/abs/2402.reasoning-agents",
+      "searchQuery": "AI Agents & Reasoning",
+      "fetchedAt": "2026-08-09T13:19:21.928Z"
+    },
+    "sourceUrl": "https://arxiv.org/abs/2402.reasoning-agents",
+    "verdict": "ACCEPTED",
+    "score": 96,
+    "reasoning": "High-signal topic passing editorial bar (96/75). Strong domain relevance (100%) and fresh novelty (100%). Selected for LLM Writer synthesis.",
+    "criteriaBreakdown": {
+      "alignmentScore": 100,
+      "noveltyScore": 100,
+      "substanceScore": 100,
+      "timelinessScore": 71,
+      "similarityPercentage": 0
+    },
+    "personaId": "persona-ai-architect"
+  },
+  {
+    "id": "judge-1786281561929-pbhmd",
+    "timestamp": "2026-08-09T13:19:21.929Z",
+    "candidateTopic": {
+      "id": "signal-1786281561928-v6euk",
+      "title": "NVIDIA and TSMC Accelerate 2nm Packaging Node for Extreme Density Interconnects",
+      "snippet": "Next-generation CoWoS packaging breakthrough promises 3.2x memory bandwidth per socket for LLM inference clusters and hyperscale training pods.",
+      "source": "Semiconductor Industry Wire",
+      "url": "https://semiengineering.com/next-gen-packaging-inference",
+      "searchQuery": "Hardware & Compute",
+      "fetchedAt": "2026-08-09T13:19:21.928Z"
+    },
+    "sourceUrl": "https://semiengineering.com/next-gen-packaging-inference",
+    "verdict": "ACCEPTED",
+    "score": 88,
+    "reasoning": "High-signal topic passing editorial bar (88/75). Strong domain relevance (71%) and fresh novelty (100%). Selected for LLM Writer synthesis.",
+    "criteriaBreakdown": {
+      "alignmentScore": 71,
+      "noveltyScore": 100,
+      "substanceScore": 100,
+      "timelinessScore": 88,
+      "similarityPercentage": 0
+    },
+    "personaId": "persona-ai-architect"
+  },
+  {
+    "id": "judge-1786281561247-hqoww",
+    "timestamp": "2026-08-09T13:19:21.247Z",
+    "candidateTopic": {
+      "title": "Viral celebrity red carpet outfit review and drama",
+      "snippet": "Fans react to outrageous styles at the awards show.",
+      "url": "https://example.com/gossip",
+      "searchQuery": "celebrity"
+    },
+    "sourceUrl": "https://example.com/gossip",
+    "verdict": "REJECTED",
+    "score": 57,
+    "reasoning": "Score (57/100) failed quality bar (75/100). Reasons: insufficient persona alignment (25/100), low technical depth/signal (30/100).",
+    "criteriaBreakdown": {
+      "alignmentScore": 25,
+      "noveltyScore": 100,
+      "substanceScore": 30,
+      "timelinessScore": 81,
+      "similarityPercentage": 0
+    },
+    "personaId": "persona-ai-architect"
+  },
+  {
+    "id": "judge-1786281561241-3qnev",
+    "timestamp": "2026-08-09T13:19:21.241Z",
+    "candidateTopic": {
+      "id": "signal-1786281561208-evoec",
+      "title": "Reinforcement Learning via Verifiable Rewards Unlocks Math & Formal Verification Super-Reasoning",
+      "snippet": "Test-time compute scaling is replacing pure pre-training as the dominant paradigm for frontier problem-solving in logic, formal proofs, and autonomous synthesis.",
+      "source": "AI Research Quarterly",
+      "url": "https://nature.com/articles/verifiable-rl-reasoning",
+      "searchQuery": "Research",
+      "fetchedAt": "2026-08-09T13:19:21.208Z"
+    },
+    "sourceUrl": "https://nature.com/articles/verifiable-rl-reasoning",
+    "verdict": "ACCEPTED",
+    "score": 96,
+    "reasoning": "High-signal topic passing editorial bar (96/75). Strong domain relevance (100%) and fresh novelty (100%). Selected for LLM Writer synthesis.",
+    "criteriaBreakdown": {
+      "alignmentScore": 100,
+      "noveltyScore": 100,
+      "substanceScore": 86,
+      "timelinessScore": 90,
+      "similarityPercentage": 0
+    },
+    "personaId": "persona-ai-architect"
+  }
+]

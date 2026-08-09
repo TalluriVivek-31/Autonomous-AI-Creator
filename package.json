@@ -1,0 +1,29 @@
+{
+  "name": "autonomous-ai-creator",
+  "version": "2.0.0",
+  "description": "Hackathon: Autonomous AI Technology Persona that discovers, judges, writes, remembers, and publishes — zero human prompts after initialization.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js",
+    "test": "node tests/verify.js"
+  },
+  "keywords": [
+    "ai-agent",
+    "autonomous",
+    "hackathon",
+    "persona",
+    "editorial-judge",
+    "sqlite"
+  ],
+  "author": "Hackathon Build",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.9.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "uuid": "^11.1.0"
+  }
+}

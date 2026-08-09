@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autonomous AI Creator — Hackathon Demo</title>
+  <meta name="description" content="An autonomous AI technology persona that independently discovers, judges, writes, and publishes — with zero human prompts after initialization.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       INIT SCREEN  (shown before agent is initialized)
+  ═══════════════════════════════════════════════════════════ -->
+  <div id="init-screen" class="init-screen">
+    <div class="init-particles" id="init-particles"></div>
+
+    <div class="init-content">
+      <div class="init-badge">
+        <span class="badge-dot"></span>
+
+      </div>
+
+      <h1 class="init-title">
+        Autonomous<br>
+        <span class="gradient-text">AI Creator</span>
+      </h1>
+
+      <p class="init-subtitle">
+        A technology persona that independently discovers, judges, writes,<br>
+        remembers, and publishes — with zero human prompts after init.
+      </p>
+
+      <div class="init-card">
+        <div class="init-card-header">
+          <div class="init-step-badge"></div>
+          <h2 class="init-card-title">Configure Your AI Persona</h2>
+          <p class="init-card-sub">Called exactly once. The agent runs autonomously after this.</p>
+        </div>
+
+        <form id="form-init" class="init-form">
+          <!-- Persona Presets -->
+          <div class="form-section">
+            <label class="form-label">Choose a Persona Preset</label>
+            <div class="preset-grid" id="preset-grid">
+              <div class="preset-card active" data-preset="nova-ai-security" id="preset-nova">
+                <div class="preset-icon">🛡️</div>
+                <div class="preset-name">Nova</div>
+                <div class="preset-domain">AI Security</div>
+              </div>
+              <div class="preset-card" data-preset="atlas-frontier-ai" id="preset-atlas">
+                <div class="preset-icon">🔬</div>
+                <div class="preset-name">Atlas</div>
+                <div class="preset-domain">Frontier AI Research</div>
+              </div>
+              <div class="preset-card" data-preset="aria-indie-builder" id="preset-aria">
+                <div class="preset-icon">⚙️</div>
+                <div class="preset-name">Aria</div>
+                <div class="preset-domain">Applied AI Engineering</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Custom Fields -->
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Persona Name</label>
+              <input type="text" class="form-input" id="init-name" value="Nova" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Domain</label>
+              <input type="text" class="form-input" id="init-domain" value="AI Security" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Mission Statement <span class="form-label-opt">(optional override)</span></label>
+            <textarea class="form-textarea" id="init-mission" placeholder="Leave blank to use preset mission…" rows="2"></textarea>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Autonomous Interval</label>
+              <select class="form-select" id="init-interval" disabled>
+                <option value="" selected>Auto (from .env)</option>
+              </select>
+              <div class="form-hint">Configured via DEV_AUTONOMOUS_INTERVAL in .env</div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Editorial Quality Bar</label>
+              <select class="form-select" id="init-quality">
+                <option value="70">Strict (≥70/100)</option>
+                <option value="65" selected>Standard (≥65/100)</option>
+                <option value="55">Permissive (≥55/100)</option>
+              </select>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-launch" id="btn-launch">
+            <span class="btn-icon">🚀</span>
+            <span class="btn-text">Initialize Autonomous Agent</span>
+            <span class="btn-hint"></span>
+          </button>
+        </form>
+
+        <div class="init-features">
+          <div class="feature-item">
+            <span class="feature-icon">⚡</span>
+            <span>Autonomous from first second</span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">🧠</span>
+            <span>Persistent SQLite memory</span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">⚖️</span>
+            <span>7-criteria editorial judge</span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">🔍</span>
+            <span>Live topic discovery</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       MAIN DASHBOARD  (shown after agent is initialized)
+  ═══════════════════════════════════════════════════════════ -->
+  <div id="dashboard" class="dashboard hidden">
+
+    <!-- Top Navigation Bar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <div class="topbar-brand">
+          <div class="brand-orb">
+            <span class="orb-inner">🤖</span>
+          </div>
+          <div>
+            <div class="brand-name">Autonomous AI Creator</div>
+            <div class="brand-sub"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="topbar-center">
+        <!-- AUTONOMOUS MODE INDICATOR (most important UI element per requirements) -->
+        <div class="autonomous-indicator" id="autonomous-indicator">
+          <div class="auto-pulse"></div>
+          <span class="auto-label">AUTONOMOUS MODE ACTIVE</span>
+        </div>
+      </div>
+
+      <div class="topbar-right">
+        <div class="next-cycle-widget" id="next-cycle-widget">
+          <div class="cycle-label">Next cycle</div>
+          <div class="cycle-timer" id="cycle-timer">--:--</div>
+        </div>
+
+        <button class="btn-run-now" id="btn-run-now" title="Trigger immediate cycle">
+          ⚡ Run Now
+        </button>
+      </div>
+    </header>
+
+    <!-- Tab Navigation -->
+    <nav class="tabnav">
+      <button class="tab active" data-tab="tab-dashboard">
+        <span>📊</span> Dashboard
+      </button>
+      <button class="tab" data-tab="tab-feed">
+        <span>📰</span> Live Feed
+        <span class="tab-count" id="tab-feed-count">0</span>
+      </button>
+      <button class="tab" data-tab="tab-timeline">
+        <span>⚡</span> Pipeline Activity
+      </button>
+      <button class="tab" data-tab="tab-editorial">
+        <span>⚖️</span> Editorial Intelligence
+        <span class="tab-count" id="tab-editorial-count">0</span>
+      </button>
+      <button class="tab" data-tab="tab-memory">
+        <span>🧠</span> Memory
+      </button>
+    </nav>
+
+    <main class="dash-main">
+
+      <!-- ── TAB: DASHBOARD ─────────────────────────────────────────── -->
+      <div class="tab-view active" id="tab-dashboard">
+
+        <!-- Pipeline Animation Banner -->
+        <div class="pipeline-banner">
+          <div class="pipeline-title">
+            <span class="blink-dot"></span>
+            Autonomous Pipeline — Live Stage
+          </div>
+          <div class="pipeline-stages" id="pipeline-stages">
+            <div class="ps-node" data-stage="DISCOVERING" id="ps-discover">
+              <div class="ps-icon">🔍</div>
+              <div class="ps-label">Discover</div>
+              <div class="ps-sub">Live Sources</div>
+            </div>
+            <div class="ps-arrow">→</div>
+            <div class="ps-node" data-stage="EVALUATING" id="ps-judge">
+              <div class="ps-icon">⚖️</div>
+              <div class="ps-label">Judge</div>
+              <div class="ps-sub">Editorial AI</div>
+            </div>
+            <div class="ps-arrow">→</div>
+            <div class="ps-node" data-stage="WRITING" id="ps-write">
+              <div class="ps-icon">✍️</div>
+              <div class="ps-label">Write</div>
+              <div class="ps-sub">Persona Voice</div>
+            </div>
+            <div class="ps-arrow">→</div>
+            <div class="ps-node" data-stage="MEMORY_UPDATE" id="ps-remember">
+              <div class="ps-icon">🧠</div>
+              <div class="ps-label">Remember</div>
+              <div class="ps-sub">SQLite Memory</div>
+            </div>
+            <div class="ps-arrow">→</div>
+            <div class="ps-node" data-stage="PUBLISHED" id="ps-publish">
+              <div class="ps-icon">📡</div>
+              <div class="ps-label">Publish</div>
+              <div class="ps-sub">GET /feed</div>
+            </div>
+          </div>
+          <div class="pipeline-status-text" id="pipeline-status-text">
+            Autonomous agent is standing by — next cycle starts in <span id="pipeline-countdown">--:--</span>
+          </div>
+        </div>
+
+        <!-- Stats Row -->
+        <div class="stats-row">
+          <div class="stat-card" id="stat-posts">
+            <div class="stat-icon">📄</div>
+            <div class="stat-value" id="sv-posts">0</div>
+            <div class="stat-label">Posts Published</div>
+          </div>
+          <div class="stat-card" id="stat-topics">
+            <div class="stat-icon">🔍</div>
+            <div class="stat-value" id="sv-topics">0</div>
+            <div class="stat-label">Topics Discovered</div>
+          </div>
+          <div class="stat-card" id="stat-rejected">
+            <div class="stat-icon">✗</div>
+            <div class="stat-value" id="sv-rejected">0</div>
+            <div class="stat-label">Topics Rejected</div>
+          </div>
+          <div class="stat-card" id="stat-cycles">
+            <div class="stat-icon">🔄</div>
+            <div class="stat-value" id="sv-cycles">0</div>
+            <div class="stat-label">Autonomous Cycles</div>
+          </div>
+          <div class="stat-card" id="stat-uptime">
+            <div class="stat-icon">⏱️</div>
+            <div class="stat-value" id="sv-uptime">00:00</div>
+            <div class="stat-label">Agent Uptime</div>
+          </div>
+        </div>
+
+        <!-- Persona + Last Post Row -->
+        <div class="dash-grid-2">
+          <!-- Persona Card -->
+          <div class="glass-card persona-card">
+            <div class="persona-card-inner">
+              <div class="persona-avatar-wrap">
+                <img src="/nova_avatar.jpg" alt="Persona Avatar" class="persona-avatar" id="dash-persona-avatar" onerror="this.style.display='none'; document.getElementById('persona-initials').style.display='flex'">
+                <div class="persona-initials" id="persona-initials" style="display:none;"></div>
+                <div class="persona-online-dot"></div>
+              </div>
+              <div class="persona-info">
+                <div class="persona-name" id="dash-persona-name">Loading…</div>
+                <div class="persona-handle" id="dash-persona-handle">@agent</div>
+                <div class="persona-domain-badge" id="dash-persona-domain">AI Domain</div>
+              </div>
+            </div>
+            <div class="persona-mission" id="dash-persona-mission">Loading mission…</div>
+            <div class="persona-stats-row">
+              <div class="ps-stat">
+                <div class="ps-stat-label">Last post</div>
+                <div class="ps-stat-value" id="dash-last-post">Never</div>
+              </div>
+              <div class="ps-stat">
+                <div class="ps-stat-label">Agent ID</div>
+                <div class="ps-stat-value mono" id="dash-agent-id">—</div>
+              </div>
+              <div class="ps-stat">
+                <div class="ps-stat-label">Interval</div>
+                <div class="ps-stat-value" id="dash-interval">—</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recent Pipeline Events Live Widget -->
+          <div class="glass-card events-card">
+            <div class="card-header">
+              <div class="card-title">Live Event Stream</div>
+              <div class="card-badge sse-badge">SSE Connected</div>
+            </div>
+            <div class="event-stream" id="event-stream">
+              <div class="event-placeholder">
+                Waiting for autonomous events…
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ── TAB: LIVE FEED ──────────────────────────────────────────── -->
+      <div class="tab-view hidden" id="tab-feed">
+        <div class="feed-layout">
+          <div class="feed-main">
+            <div class="feed-header">
+              <h2 class="section-title">Live Feed <span class="section-sub">GET /api/agent/feed</span></h2>
+              <div class="feed-hint">Newest first · Auto-refreshes on publish</div>
+            </div>
+            <div id="feed-container" class="feed-container">
+              <div class="empty-state">
+                <div class="empty-icon">📡</div>
+                <div class="empty-title">Waiting for first post…</div>
+                <div class="empty-sub">The autonomous agent is running. First post will appear shortly.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feed Sidebar: Quick Inject -->
+          <aside class="feed-aside">
+            <div class="glass-card inject-card">
+              <div class="card-title">💉 Inject Topic</div>
+              <p class="inject-desc">Force the Editorial Judge to evaluate a specific topic immediately:</p>
+              <input type="text" class="form-input" id="inject-input" placeholder="e.g. New LLM jailbreak technique…">
+              <button class="btn btn-secondary mt-8 w-full" id="btn-inject">⚡ Evaluate Now</button>
+            </div>
+
+            <div class="glass-card">
+              <div class="card-title">📊 Quick Stats</div>
+              <div class="quick-stats">
+                <div class="qs-row">
+                  <span class="qs-label">Posts published</span>
+                  <span class="qs-value" id="qs-posts">0</span>
+                </div>
+                <div class="qs-row">
+                  <span class="qs-label">Topics rejected</span>
+                  <span class="qs-value rejected" id="qs-rejected">0</span>
+                </div>
+                <div class="qs-row">
+                  <span class="qs-label">Acceptance rate</span>
+                  <span class="qs-value" id="qs-rate">—</span>
+                </div>
+                <div class="qs-row">
+                  <span class="qs-label">Next cycle</span>
+                  <span class="qs-value" id="qs-next">—</span>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      <!-- ── TAB: PIPELINE ACTIVITY TIMELINE ───────────────────────── -->
+      <div class="tab-view hidden" id="tab-timeline">
+        <div class="section-header">
+          <h2 class="section-title">Autonomous Pipeline Activity</h2>
+          <div class="section-sub-text">Every step of the agent's autonomous loop — persisted in real-time</div>
+        </div>
+        <div class="timeline-container" id="timeline-container">
+          <div class="empty-state">
+            <div class="empty-icon">⚡</div>
+            <div class="empty-title">Pipeline events will appear here</div>
+            <div class="empty-sub">The agent's activity is logged at every step: Discover → Judge → Write → Remember → Publish</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── TAB: EDITORIAL INTELLIGENCE ───────────────────────────── -->
+      <div class="tab-view hidden" id="tab-editorial">
+        <div class="section-header">
+          <h2 class="section-title">Editorial Intelligence <span class="section-sub">7-Criteria Evaluation Log</span></h2>
+          <div class="section-sub-text">Every topic the agent discovered and judged — with full scoring breakdown and rejection reasons</div>
+        </div>
+        <div class="editorial-container" id="editorial-container">
+          <div class="empty-state">
+            <div class="empty-icon">⚖️</div>
+            <div class="empty-title">Editorial decisions will appear here</div>
+            <div class="empty-sub">The judge evaluates topics across 7 criteria: Relevance, Novelty, Importance, Timeliness, Persona Alignment, Technical Value, Duplicate Risk</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── TAB: MEMORY ────────────────────────────────────────────── -->
+      <div class="tab-view hidden" id="tab-memory">
+        <div class="section-header">
+          <h2 class="section-title">Persistent Memory <span class="section-sub">GET /api/agent/memory</span></h2>
+          <div class="section-sub-text">SQLite-backed semantic memory preventing duplicate content</div>
+        </div>
+
+        <div class="memory-grid">
+          <div class="glass-card">
+            <div class="card-title">Memory Statistics</div>
+            <div class="memory-stats" id="memory-stats">
+              <div class="ms-item">
+                <div class="ms-label">Total memory nodes</div>
+                <div class="ms-value" id="ms-total">0</div>
+              </div>
+              <div class="ms-item">
+                <div class="ms-label">Published post fingerprints</div>
+                <div class="ms-value" id="ms-posts">0</div>
+              </div>
+              <div class="ms-item">
+                <div class="ms-label">Rejected topic fingerprints</div>
+                <div class="ms-value rejected" id="ms-rejected">0</div>
+              </div>
+            </div>
+
+            <div class="card-title mt-20">Top Themes</div>
+            <div class="memory-themes" id="memory-themes">
+              <div class="empty-state-sm">No themes yet…</div>
+            </div>
+          </div>
+
+          <div class="glass-card">
+            <div class="card-title">Recent Memory Nodes</div>
+            <div class="memory-nodes" id="memory-nodes">
+              <div class="empty-state-sm">Memory is empty — posts will be indexed here</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- Toast notifications -->
+  <div id="toasts" class="toasts"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
