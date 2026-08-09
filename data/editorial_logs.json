@@ -1,5 +1,182 @@
 [
   {
+    "id": "judge-1786288346212-cx1a5",
+    "timestamp": "2026-08-09T15:12:26.212Z",
+    "candidateTopic": {
+      "id": "topic-1786288346204-ramqd",
+      "title": "Astera Labs Leads SMRF's 21% Gain on AI Infrastructure",
+      "snippet": "Live development reported by ETF Trends: Astera Labs Leads SMRF's 21% Gain on AI Infrastructure",
+      "source": "ETF Trends",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaUhCQzJIZmhkTjlHaXZwOUhQbzZDY0RmZU9ZeVZaalN6b19WVHppWU5zbUZSZzNhcGtWT2Fna29RZVBnaWVSWTVCcE91UnFmR1lhQmEyem50LUF6TlVRMU12cm5GRU5WTkZucmtXWG8zUGs4U2tudGdLMFF6QXJEcjJ0eWFzV0lrbGh4aWZscTFpNDdLa1JRN3ZlMlJaS0JlbVJlMlJhalRTMVFo0gGyAUFVX3lxTFBuS1NyeGRPT3RJUUxOLWpmYlhwRThzcjhiTVBHaTY3SHdLdWJobHpLczljd3FCOHhvd3pYVmRPUW9aUTd1aGQwU3FhTmhtOXk5VUtIamFrY0lzd3dudEp3Qm82ZGNrLUMwZFRiZkg0RVFWeDlMSEs5Y05xNmdBZDMycHZiVklNbF9IY2M4ODd0VF9oRktMSkllazZkd3NvakIwcTk3V2l1LU5OMXNjX1ozbmc?oc=5",
+      "publishedDate": "Thu, 23 Apr 2026 07:00:00 GMT",
+      "searchQuery": "SMR nuclear compute deal",
+      "fetchedAt": "2026-08-09T15:12:26.204Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaUhCQzJIZmhkTjlHaXZwOUhQbzZDY0RmZU9ZeVZaalN6b19WVHppWU5zbUZSZzNhcGtWT2Fna29RZVBnaWVSWTVCcE91UnFmR1lhQmEyem50LUF6TlVRMU12cm5GRU5WTkZucmtXWG8zUGs4U2tudGdLMFF6QXJEcjJ0eWFzV0lrbGh4aWZscTFpNDdLa1JRN3ZlMlJaS0JlbVJlMlJhalRTMVFo0gGyAUFVX3lxTFBuS1NyeGRPT3RJUUxOLWpmYlhwRThzcjhiTVBHaTY3SHdLdWJobHpLczljd3FCOHhvd3pYVmRPUW9aUTd1aGQwU3FhTmhtOXk5VUtIamFrY0lzd3dudEp3Qm82ZGNrLUMwZFRiZkg0RVFWeDlMSEs5Y05xNmdBZDMycHZiVklNbF9IY2M4ODd0VF9oRktMSkllazZkd3NvakIwcTk3V2l1LU5OMXNjX1ozbmc?oc=5",
+    "verdict": "ACCEPTED",
+    "score": 82,
+    "reasoning": "High-signal topic passing editorial bar (82/70). Strong domain relevance (99%) and fresh novelty (95%). Selected for LLM Writer synthesis.",
+    "criteriaBreakdown": {
+      "alignmentScore": 99,
+      "noveltyScore": 95,
+      "substanceScore": 30,
+      "timelinessScore": 87,
+      "similarityPercentage": 5
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786288346211-tmtv8",
+    "timestamp": "2026-08-09T15:12:26.211Z",
+    "candidateTopic": {
+      "id": "topic-1786288345730-ozjas",
+      "title": "Big Tech Divergence Shakes Hedge Fund Positioning: AI Capex Splits the “Magnificent 7”",
+      "snippet": "Live development reported by HedgeCo.Net: Big Tech Divergence Shakes Hedge Fund Positioning: AI Capex Splits the “Magnificent 7”",
+      "source": "HedgeCo.Net",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMEhfRGRtRy15RG52cm9sVVpfc05PaUgyNWpnaEZmeWNfOFR3dlRaaWhCaGFYbUFiZXllUXhtVHBLMVc1b1dMZlFJLUhrSlBsMnZlQVRsVWlfc2dsWDdwX0FZcGNLODlUV1I0YWZ6YmdHQTVuLU8xRHZRc2ROU1E1ellOMXRra3psemxNQWdJZnpQcVQxNm1Qd2JsQnhQclBEVm5xMmtKeFZ4aURVWm5vVG41UEVyMVg1TnEyUGxGVlFaMnVNVUE?oc=5",
+      "publishedDate": "Thu, 30 Apr 2026 07:00:00 GMT",
+      "searchQuery": "cloud computing margin compression AI",
+      "fetchedAt": "2026-08-09T15:12:25.730Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMEhfRGRtRy15RG52cm9sVVpfc05PaUgyNWpnaEZmeWNfOFR3dlRaaWhCaGFYbUFiZXllUXhtVHBLMVc1b1dMZlFJLUhrSlBsMnZlQVRsVWlfc2dsWDdwX0FZcGNLODlUV1I0YWZ6YmdHQTVuLU8xRHZRc2ROU1E1ellOMXRra3psemxNQWdJZnpQcVQxNm1Qd2JsQnhQclBEVm5xMmtKeFZ4aURVWm5vVG41UEVyMVg1TnEyUGxGVlFaMnVNVUE?oc=5",
+    "verdict": "ACCEPTED",
+    "score": 75,
+    "reasoning": "High-signal topic passing editorial bar (75/70). Strong domain relevance (71%) and fresh novelty (94%). Selected for LLM Writer synthesis.",
+    "criteriaBreakdown": {
+      "alignmentScore": 71,
+      "noveltyScore": 94,
+      "substanceScore": 42,
+      "timelinessScore": 90,
+      "similarityPercentage": 6
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786288346209-a7e0s",
+    "timestamp": "2026-08-09T15:12:26.209Z",
+    "candidateTopic": {
+      "id": "signal-1786288346204-3m5sk",
+      "title": "Autonomous Software Engineering: Multi-Agent Systems Outperform Single Large Models by 28%",
+      "snippet": "Research demonstrates that dividing software architecture, coding, and editorial review among dedicated specialized subagents drastically reduces cascading failure rates.",
+      "source": "ACM Software Engineering Journal",
+      "url": "https://dl.acm.org/doi/agentic-software-engineering-2025",
+      "searchQuery": "Agent Architecture",
+      "fetchedAt": "2026-08-09T15:12:26.204Z"
+    },
+    "sourceUrl": "https://dl.acm.org/doi/agentic-software-engineering-2025",
+    "verdict": "ACCEPTED",
+    "score": 71,
+    "reasoning": "High-signal topic passing editorial bar (71/70). Strong domain relevance (25%) and fresh novelty (93%). Selected for LLM Writer synthesis.",
+    "criteriaBreakdown": {
+      "alignmentScore": 25,
+      "noveltyScore": 93,
+      "substanceScore": 100,
+      "timelinessScore": 93,
+      "similarityPercentage": 7
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786288346207-e3zpc",
+    "timestamp": "2026-08-09T15:12:26.207Z",
+    "candidateTopic": {
+      "id": "topic-1786288345730-egn92",
+      "title": "Microsoft Earnings Call: Cloud, AI Surge Amid Cost Pain",
+      "snippet": "Live development reported by The Globe and Mail: Microsoft Earnings Call: Cloud, AI Surge Amid Cost Pain",
+      "source": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUGNkZEYtdVlOTGZHOFROcnhyWEIxamZhNllYSGhIQXR5YUZ2Q3FsSGFCa01UczlTdXkycWt1Q1VtZWpacmNHUzFSVV9mTWRHcDkxbHFTeGdRdmVxZGZ0OUQxUXpETDd3bEdMd1dBVWQ4VEoxaFFYelVJZ09qTUU3NHRJcEhEc19KN0hic01kXzBSeDROYnpWeW4tek5UalNzMGU0TEx3UHlBTVY5ZWVDVDFQMkJuSjF5d3lKVjFDWkVIYVhWejEtZTRTaFBjZGJ3SEx5Qmc4TQ?oc=5",
+      "publishedDate": "Sun, 02 Aug 2026 00:34:00 GMT",
+      "searchQuery": "cloud computing margin compression AI",
+      "fetchedAt": "2026-08-09T15:12:25.730Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUGNkZEYtdVlOTGZHOFROcnhyWEIxamZhNllYSGhIQXR5YUZ2Q3FsSGFCa01UczlTdXkycWt1Q1VtZWpacmNHUzFSVV9mTWRHcDkxbHFTeGdRdmVxZGZ0OUQxUXpETDd3bEdMd1dBVWQ4VEoxaFFYelVJZ09qTUU3NHRJcEhEc19KN0hic01kXzBSeDROYnpWeW4tek5UalNzMGU0TEx3UHlBTVY5ZWVDVDFQMkJuSjF5d3lKVjFDWkVIYVhWejEtZTRTaFBjZGJ3SEx5Qmc4TQ?oc=5",
+    "verdict": "REJECTED",
+    "score": 44,
+    "reasoning": "Memory collision: Content is 62% similar to existing RECENT_REJECTION (\"Microsoft Earnings Call: Cloud, AI Surge Amid Cost Pain\"). Duplicate rejected to avoid feed spam.",
+    "criteriaBreakdown": {
+      "alignmentScore": 43,
+      "noveltyScore": 38,
+      "substanceScore": 30,
+      "timelinessScore": 80,
+      "similarityPercentage": 62
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786288346205-el6ds",
+    "timestamp": "2026-08-09T15:12:26.205Z",
+    "candidateTopic": {
+      "id": "topic-1786288345730-cloh3",
+      "title": "Why Cloudflare (NET) Stock Is Trading Up Today",
+      "snippet": "Live development reported by StockStory: Why Cloudflare (NET) Stock Is Trading Up Today",
+      "source": "StockStory",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXlCNy1KeFhsclhlUmF3SkFlRVVKWS1aeEFhLVdRY0xxXzV0Q0wxdkM5b3REandRVlkzQmI4UHJ3SkRJQUQwMVNMTkUxY2J1OWJkRnhsc3MwZmZXTFA4SnRZRUN1aXZLNVQ5WXRXVVFsNHNObGZNa2RsaDFRT0xoYWNENkE4bkhtZVdGZ3dkWXVJU3RxaTBVR2ZwdVdSZFprMmxJUUFsYnU?oc=5",
+      "publishedDate": "Thu, 14 May 2026 07:00:00 GMT",
+      "searchQuery": "cloud computing margin compression AI",
+      "fetchedAt": "2026-08-09T15:12:25.730Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXlCNy1KeFhsclhlUmF3SkFlRVVKWS1aeEFhLVdRY0xxXzV0Q0wxdkM5b3REandRVlkzQmI4UHJ3SkRJQUQwMVNMTkUxY2J1OWJkRnhsc3MwZmZXTFA4SnRZRUN1aXZLNVQ5WXRXVVFsNHNObGZNa2RsaDFRT0xoYWNENkE4bkhtZVdGZ3dkWXVJU3RxaTBVR2ZwdVdSZFprMmxJUUFsYnU?oc=5",
+    "verdict": "REJECTED",
+    "score": 63,
+    "reasoning": "Score (63/100) failed quality bar (70/100). Reasons: insufficient persona alignment (43/100), low technical depth/signal (30/100).",
+    "criteriaBreakdown": {
+      "alignmentScore": 43,
+      "noveltyScore": 96,
+      "substanceScore": 30,
+      "timelinessScore": 88,
+      "similarityPercentage": 4
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786288345125-n8ksl",
+    "timestamp": "2026-08-09T15:12:25.125Z",
+    "candidateTopic": {
+      "title": "Viral celebrity red carpet outfit review and drama",
+      "snippet": "Fans react to outrageous styles at the awards show.",
+      "url": "https://example.com/gossip",
+      "searchQuery": "celebrity"
+    },
+    "sourceUrl": "https://example.com/gossip",
+    "verdict": "REJECTED",
+    "score": 40,
+    "reasoning": "Memory collision: Content is 58% similar to existing RECENT_REJECTION (\"Viral celebrity red carpet outfit review and drama\"). Duplicate rejected to avoid feed spam.",
+    "criteriaBreakdown": {
+      "alignmentScore": 25,
+      "noveltyScore": 42,
+      "substanceScore": 30,
+      "timelinessScore": 81,
+      "similarityPercentage": 58
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
+    "id": "judge-1786288345113-h26e6",
+    "timestamp": "2026-08-09T15:12:25.113Z",
+    "candidateTopic": {
+      "id": "topic-1786288344621-s1q4z",
+      "title": "AI data centers and power solutions drive major investment themes heading into 2026's second half",
+      "snippet": "Live development reported by eciks.org: AI data centers and power solutions drive major investment themes heading into 2026's second half",
+      "source": "eciks.org",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1TS3VpT0NwN3ZjakRySUFlTWhHNWFpYkJ5SmtlWm5iRzVPSDFRNW5ER0E1OGx4SlRuQmZvRThyaGExdTBxcDVkbEsyUFQzOGI5SWhKMWZHQ21jUVZjZG52N2dwam9Mc2dncTNDOTItMGlzS0dWaFd6VE8zQVRvQQ?oc=5",
+      "publishedDate": "Thu, 06 Aug 2026 15:03:07 GMT",
+      "searchQuery": "data center power grid AI capex",
+      "fetchedAt": "2026-08-09T15:12:24.622Z"
+    },
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1TS3VpT0NwN3ZjakRySUFlTWhHNWFpYkJ5SmtlWm5iRzVPSDFRNW5ER0E1OGx4SlRuQmZvRThyaGExdTBxcDVkbEsyUFQzOGI5SWhKMWZHQ21jUVZjZG52N2dwam9Mc2dncTNDOTItMGlzS0dWaFd6VE8zQVRvQQ?oc=5",
+    "verdict": "ACCEPTED",
+    "score": 85,
+    "reasoning": "High-signal topic passing editorial bar (85/70). Strong domain relevance (100%) and fresh novelty (95%). Selected for LLM Writer synthesis.",
+    "criteriaBreakdown": {
+      "alignmentScore": 100,
+      "noveltyScore": 95,
+      "substanceScore": 42,
+      "timelinessScore": 86,
+      "similarityPercentage": 5
+    },
+    "personaId": "persona-macro-tech"
+  },
+  {
     "id": "judge-1786282856000-c8169",
     "timestamp": "2026-08-09T13:40:56.000Z",
     "candidateTopic": {

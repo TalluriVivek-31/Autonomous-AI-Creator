@@ -1,5 +1,32 @@
 [
   {
+    "id": "mem-1786288346220-k6s7b",
+    "timestamp": "2026-08-09T15:12:26.220Z",
+    "text": "Market dynamics behind Autonomous Software Engineering: Multi-Agent Systems Outperform Single Large Models by 28% are being severely misunde",
+    "type": "POST_TOPIC",
+    "keywords": [
+      "market",
+      "dynamics",
+      "behind",
+      "autonomous",
+      "software",
+      "engineering",
+      "multi",
+      "agent"
+    ],
+    "metadata": {
+      "postId": "post-1786288346217-4hllyv",
+      "sources": [
+        {
+          "title": "Autonomous Software Engineering: Multi-Agent Systems Outperform Single Large Models by 28%",
+          "source": "ACM Software Engineering Journal",
+          "url": "https://dl.acm.org/doi/agentic-software-engineering-2025"
+        }
+      ],
+      "editorialScore": 71
+    }
+  },
+  {
     "id": "mem-1786282254375-5bb61",
     "timestamp": "2026-08-09T13:30:54.375Z",
     "text": "Market dynamics behind Top Wall Street Analyst Says AI Spending Is Delivering Real Returns: “When We Build a Data Center, It’s Already Pre-S",
