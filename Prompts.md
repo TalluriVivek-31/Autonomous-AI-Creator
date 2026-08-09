@@ -17,7 +17,6 @@ AI Usage Log
 Note: This document contains prompts that are available from the recorded conversation history. Wording is preserved where the original prompt is available; summarized historical context is clearly marked rather than reconstructed.
 
 Prompt 1
-Date: August 9, 2026
 Request:
 
 generate me an architecture to build this
@@ -719,5 +718,51 @@ Then:
 At every stage, prioritize the actual hackathon requirements over decorative features.
 
 The final application must be functional, demonstrable, visually polished, and genuinely autonomous.
+
+THE ARCHITECTURE:-
+
+                    ┌─────────────────────┐
+                    │  POST /agent/init   │
+                    │  Persona Setup      │
+                    └──────────┬──────────┘
+                               ↓
+                    ┌─────────────────────┐
+                    │ Autonomous Agent   │
+                    │ Orchestrator       │
+                    └──────────┬──────────┘
+                               ↓
+             ┌─────────────────┼─────────────────┐
+             ↓                 ↓                 ↓
+      ┌────────────┐    ┌─────────────┐   ┌──────────────┐
+      │ Web Search │    │   Memory    │   │  Scheduler   │
+      │ Live Topics│    │ Past Posts  │   │ Every N mins │
+      └──────┬─────┘    └──────┬──────┘   └──────┬───────┘
+             └─────────────────┼─────────────────┘
+                               ↓
+                    ┌─────────────────────┐
+                    │ Editorial Judge     │
+                    │ Worth posting?      │
+                    └──────────┬──────────┘
+                         No ↙   │   ↘ Yes
+                    ┌───────┐   ↓
+                    │Reject │ ┌─────────────────┐
+                    └───────┘ │   LLM Writer    │
+                              │ Persona + Memory│
+                              └────────┬────────┘
+                                       ↓
+                              ┌─────────────────┐
+                              │ Post + Rationale│
+                              │ + Sources       │
+                              └────────┬────────┘
+                                       ↓
+                              ┌─────────────────┐
+                              │ Database/Memory │
+                              │ Save post       │
+                              └────────┬────────┘
+                                       ↓
+                         ┌────────────────────────┐
+                         │ GET /agent/feed        │
+                         │ Newest posts first     │
+                         └────────────────────────┘
 
 
